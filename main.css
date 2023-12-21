@@ -1,0 +1,229 @@
+    #main-header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      max-height: 15%;
+      background-color: rgba(125, 225, 255, 1); /* 半透明の白色背景 */
+      padding: 0;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* ヘッダーに影を追加 */
+      transition: background-color 0.3s ease; /* 色の変化にアニメーションを追加 */
+    }
+    
+    /* ヘッダーがスクロールされた時のスタイル */
+    #main-header.scrolled {
+      background-color: rgba(125, 225, 255, 0.5); /* スクロール時の半透明度を変更 */
+    }
+    
+    #main-header h1 {
+      color: rgba(25, 25, 25, 0.8); /* ヘッダーのテキスト色 */
+      transition: color 0.3s ease; /* テキスト色の変化にアニメーションを追加 */
+    }
+    
+    #main-header.scrolled h1 {
+      color: rgba(25, 25, 25, 0.6); /* スクロール時のテキスト色を変更 */
+    }
+    
+    
+    
+    /* Apply a basic styling to the body */
+    body {
+      font-size: 20px;
+      padding: 0% 80px 0%;
+      line-height: 1.55;
+    }
+
+    span{
+     margin-right: 2em;
+    }
+
+    .class1,.class2{
+     width: 50%;
+     height: 200px;
+    }
+
+    .class3,.class4,.class5,.class6{
+     font-size: 15px;
+     width: 50%;
+     height: 500px;
+     p {
+      margin-left: 7.2em;
+      margin-right: 0.5em;
+    }
+    }
+
+    .class1,.class3,.class5{
+     float: left;
+    }
+
+    .class2,.class4,.class6{
+     float: right;
+    }
+
+
+
+    /* Style the header */
+    h1 {
+      font-size: 32px; /* Adjust the font size for h1 */
+      text-align: center;
+    }
+
+    /* Style the sub-headings */
+    h2 {
+      margin-left: -16px;
+      font-size: 28px; /* Adjust the font size for h2 */
+      border-width: 0 0 0.2em;
+      border-style: solid;
+      border-color: rgba(25, 25, 25, 0.9);
+    }
+
+    h3 {
+      font-size: 28px; /* Adjust the font size for h3 */
+      margin-bottom: 8px; /* 下の余白をなくす */
+      margin-left: 1em;
+    }
+
+    h4 {
+      margin-bottom: -9px; /* 下の余白をなくす */
+      font-size: 18px;
+    }
+
+    h5 {
+      margin-bottom: -9px; /* 下の余白をなくす */
+      margin-left: 7em;
+      margin-right: 0.5em;
+      font-size: 16px;
+    }
+
+    ul li {
+      font-size: 20px;
+      margin-bottom: 8px; /* 長方形間の余白 */
+    }
+
+    /* Apply a background image to the page */
+    body {
+      background-size: cover;
+    }
+    
+    p {
+      margin-left: 2.5em;
+      margin-right: 1em;
+    }
+
+    /* Style the images and videos */
+    img {
+      height: auto;
+      margin-top: 1.6em;
+      margin-left: 8px;
+      max-width: 100%;
+    }
+
+    video {
+      height: auto;
+      margin-top: 0px;
+      margin-left: 2.5%;
+      margin-bottom: -1.25em;
+      max-width: 100%;
+    }
+
+
+
+    /* 長方形のコンテナ */
+
+    .rectangle-container5 {
+      display: flex; /* Flexboxを使用して横に並べる */
+      flex-direction: column; /* 縦に並べる */
+      align-items: center;
+      justify-content: center;
+    }
+    .rectangle-container,.rectangle-container1,.rectangle-container2,.rectangle-container3,.rectangle-container4, {
+      text-align: center;
+    }
+
+    /* 長方形のスタイル */
+    .rectangle {
+      width: 1000px; /* 適切な幅を指定 */
+      height: 200px; /* 適切な高さを指定 */
+      margin: auto;
+      background-color: rgba(255, 255, 255); /* 長方形の背景色 */
+      border-radius: 15px; /* 丸角にする半径のサイズ */
+    }
+
+    /* 長方形のスタイル */
+    .rectangle1 {
+      width: 1000px; /* 適切な幅を指定 */
+      height: 750px; /* 適切な高さを指定 */
+      margin: auto;
+      background-color: rgba(255, 255, 255); /* 長方形の背景色 */
+      border-radius: 15px; /* 丸角にする半径のサイズ */
+      img {
+        margin-bottom: -1.25em;
+      }
+    }
+
+    /* 長方形のスタイル */
+    .rectangle2 {
+      width: 1000px; /* 適切な幅を指定 */
+      height: 1050px; /* 適切な高さを指定 */
+      margin: auto;
+      background-color: rgba(255, 255, 255); /* 長方形の背景色 */
+      border-radius: 15px; /* 丸角にする半径のサイズ */
+      img {
+        margin-bottom: -1.25em;
+      }
+    }
+
+    /* 長方形のスタイル */
+    .rectangle3 {
+      width: 1000px; /* 適切な幅を指定 */
+      height: 775px; /* 適切な高さを指定 */
+      margin: auto;
+      background-color: rgba(255, 255, 255); /* 長方形の背景色 */
+      border-radius: 15px; /* 丸角にする半径のサイズ */
+      img {
+        margin-bottom: -1.25em;
+      }
+    }
+
+    /* 長方形のスタイル */
+    .rectangle4 {
+      width: 1000px; /* 適切な幅を指定 */
+      height: 300px; /* 適切な高さを指定 */
+      margin: auto;
+      background-color: rgba(255, 255, 255); /* 長方形の背景色 */
+      border-radius: 15px; /* 丸角にする半径のサイズ */
+    }
+
+    /* 長方形のスタイル */
+    .rectangle5 {
+      width: 495px; /* 適切な幅を指定 */
+      height: 140px; /* 適切な高さを指定 */
+      margin: auto;
+      background-color: rgba(255, 255, 255); /* 長方形の背景色 */
+      margin-bottom: 10px; /* 長方形間の余白 */
+      border-radius: 20px; /* 丸角にする半径のサイズ */
+    }
+
+
+
+    /* ボタンのスタイル */
+    .round-button {
+      position: fixed;
+      bottom: 20px; /* ページの下からの距離 */
+      right: 20px; /* ページの左からの距離 */
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-color: #3498db; /* ボタンの背景色 */
+      color: #ffffff; /* ボタンのテキスト色 */
+      font-size: 20px;
+      border: none;
+      cursor: pointer;
+      outline: none;
+      transition: background-color 0.3s ease; /* ホバーエフェクト用のトランジション */
+    }
+
+    /* ボタンのホバーエフェクト */
+    .round-button:hover {
+      background-color: #2980b9; /* ホバー時の背景色 */
+    }
