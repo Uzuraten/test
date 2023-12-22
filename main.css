@@ -30,7 +30,7 @@
     body {
       font-size: 20px;
       max-width: 1200px;
-      padding: 0px 40px;
+      padding: 0px 15px;
       line-height: 1.55;
       word-wrap: break-word;
       box-sizing: border-box;
@@ -58,12 +58,13 @@
     }
 
     .class1,.class3,.class5{
-     float: left;
+      float: left;
     }
 
     .class2,.class4,.class6{
-     float: right;
+      float: right;
     }
+    
 
 
 
@@ -201,7 +202,7 @@
 
     /* 長方形のスタイル */
     .rectangle5 {
-      width: 495px; /* 適切な幅を指定 */
+      width: 480px; /* 適切な幅を指定 */
       height: 140px; /* 適切な高さを指定 */
       margin: auto;
       background-color: rgba(255, 255, 255); /* 長方形の背景色 */
